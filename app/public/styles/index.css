@@ -1,0 +1,24 @@
+.weather-form .field {
+  margin-bottom: 2rem;
+}
+
+.weather-form .field label {
+  margin-right: 0.75rem;
+}
+
+.weather-form .field input {
+  border: 1px solid #222222;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.weather-form button {
+  display: block;
+  background: #194995;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 4px;
+}

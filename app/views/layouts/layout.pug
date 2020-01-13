@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(rel="shortcut icon", href="/favicon.ico")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="theme-color", content="#000000")
+    title #{title} | Weather App
+
+    link(rel="stylesheet" href="/styles/normalize.css")
+    link(rel="stylesheet" href="/styles/globals.css")
+    link(rel="stylesheet" href="/styles/main.css")
+    link(rel="stylesheet" href="/styles/index.css")
+  body
+    div.site-container
+      include ../includes/header
+
+      main.site-content
+        block content
+      
+      include ../includes/footer

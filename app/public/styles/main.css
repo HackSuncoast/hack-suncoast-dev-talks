@@ -1,0 +1,37 @@
+.site-container {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 8rem 1fr 8rem;
+  grid-template-columns: 5% 1fr 5%;
+  grid-template-areas: 'header header header' '. content .' 'footer footer footer';
+}
+
+.site-header {
+  grid-area: header;
+}
+
+.site-footer {
+  grid-area: footer;
+}
+
+.site-header,
+.site-footer {
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  background: #222222;
+  color: white;
+}
+
+.site-header h1,
+.site-footer p {
+  margin: 0;
+}
+
+.site-content {
+  grid-area: content;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}

@@ -1,0 +1,11 @@
+extends layouts/layout
+
+block content
+  form.weather-form(action="/weather")
+    div.field
+      label(for="zipcode") Zipcode:
+      input(type="text" name="zipcode" id="zipcode" placeholder="Enter your zipcode")
+    button(type="submit") Get weather!
+  if weather
+    section.display-weather
+      p The weather is #{weather}!

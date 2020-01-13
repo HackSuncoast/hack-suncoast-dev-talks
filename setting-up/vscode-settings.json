@@ -1,0 +1,107 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.enabled": true,
+  "debug.console.fontSize": 18,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": true,
+  "editor.detectIndentation": true,
+  "editor.dragAndDrop": false,
+  "editor.fontFamily": "FiraCode-Retina, Inconsolata, Menlo, Monaco, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.fontWeight": "300",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.lineHeight": 24,
+  "editor.minimap.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.multiCursorPaste": "full",
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "onlySnippets",
+  "editor.tabSize": 2,
+  "editor.useTabStops": true,
+  "editor.wordSeparators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+  "editor.wordWrap": "on",
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "markdown": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "extensions.ignoreRecommendations": true,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.py": "python",
+    "*.rkts": "racket",
+    "*.sh": "shellscript",
+    ".env": "dotenv"
+  },
+  "files.insertFinalNewline": false,
+  "files.trimTrailingWhitespace": false,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true
+  },
+  "formattingToggle.affects": ["formatOnPaste", "formatOnSave", "formatOnType"],
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.keymap": "chorded",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "html.format.wrapLineLength": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "newFile.defaultFileExtension": "",
+  "newFile.expandBraces": true,
+  "newFile.showPathRelativeTo": "none",
+  "prettier.jsxSingleQuote": false,
+  "prettier.singleQuote": true,
+  "problems.showCurrentInStatus": true,
+  "scss.lint.duplicateProperties": "warning",
+  "scss.lint.zeroUnits": "warning",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.fontSize": 18,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.closeWhenEmpty": true,
+  "window.openFilesInNewWindow": "off",
+  "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#ffffff"
+  },
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.tabCloseButton": "right",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile"
+}
