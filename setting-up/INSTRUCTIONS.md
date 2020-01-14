@@ -21,4 +21,6 @@
    - [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
    - [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle)
    - [VSCode IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-7. Install Node.js if your system doesn't already have it: <https://nodejs.org/en/download/>
+7. Install Node.js if your system doesn't already have it (you can check by running `node -v`): <https://nodejs.org/en/download/>
+8. Install Python if your system doesn't already have it (you can check by running `python -V`): <https://www.python.org/downloads/>
+9. Install Git if your system doesn't already have it (you can check by running `git --version`): <https://git-scm.com/download/win>
