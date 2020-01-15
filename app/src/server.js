@@ -6,7 +6,6 @@ const routes = require('./routes');
 const PORT = '5000';
 const swagger = require('swagger-ui-express');
 const swaggerDocument = require('../public/swagger.json');
-const yaml = require('js-yaml');
 
 const showExplorer = false;
 const swaggerOptions = { validatorUrl: null };
