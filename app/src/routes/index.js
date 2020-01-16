@@ -9,7 +9,27 @@ router.get('/', (req, res) => {
 router.get('/weather', async (req, res) => {
   const zipCode = req.query.zipCode;
   let temp = 0;
-
+  if (!zipCode) {
+    res
+      .status(400)
+      .json({
+        code: 400,
+        error: 'Required query parameter zip code not found'
+      });
+  }
+  // Mocking a database
+  // Rather than making an API call every time, we save results per zip code on each request to cache it and prevent subsequent API calls
+  switch(zipCode) {
+    case '08854':
+      temp = 40;
+      break;
+    case '33404':
+      temp = 80;
+      break;
+    default:
+      // TODO: Make an API call
+      break;
+  }
   res.status(200).json({ code: 200, temp });
 });
 
@@ -24,7 +44,7 @@ const getWeatherFromOpenWeatherAPI = zipCode => {
 };
 
 const kelvinToFahrenheit = kelvin => {
-  return (kelvin - 273.15) * (9 / 5) + 32;
+  return ((kelvin - 273.15) * (9 / 5) + 32).toFixed(2);
 };
 
 router.post('/user/register', (req, res) => {
